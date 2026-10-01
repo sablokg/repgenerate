@@ -1,0 +1,19 @@
+[package]
+name = "repgenerate"
+version = "0.5.0"
+edition = "2024"
+readme = "README.md"
+license = "MIT"
+authors = ["Gaurav Sablok"]
+description = "demultiplexer and read summarizer for illumina sequencing"
+homepage = "https://codeberg.org/gsablok/repgenerate"
+repository = "https://codeberg.org/gsablok/repgenerate"
+keywords = ["bioinformatics","genomics"]
+
+[dependencies]
+async-std = "1.13.1"
+clap = { version = "4.5.40", features = ["derive"] }
+figlet-rs = "0.1.5"
+serde = "1.0.219"
+serde_json = "1.0.140"
+tokio = { version = "1.47.1", features = ["full"] }
